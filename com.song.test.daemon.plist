@@ -1,0 +1,23 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0">  
+    <dict>  
+            <key>KeepAlive</key>
+            <dict>
+                <key>SuccessfulExit</key>
+                <false/>
+            </dict>
+            <key>Label</key>  
+            <string>com.song.test.daemon</string>  
+            <key>ProgramArguments</key>  
+            <array>  
+                    <string>/Users/song/test.sh</string>  
+                    <string>TEST</string>  
+            </array>  
+            <key>RunAtLoad</key>  
+            <true/>  
+            <key>StandardOutPath</key>
+            <string>/Users/song/test.log</string>
+            <key>StandardErrorPath</key>
+            <string>/Users/song/test.err</string>
+    </dict>  
+</plist>  
